@@ -1,17 +1,13 @@
 import React, { Component } from 'react';
 import './wizardscreen.css';
 
-
 class WizScreen extends Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     return (
     <div className="screen">
-      <img src={'/artAss/hats/' + this.props.state.hat + '.png'}/> 
-      <img src={'/artAss/robes/' + this.props.state.robe + '.png'}/> 
-      <img src={'/artAss/shoes/' + this.props.state.shoes + '.png'}/> 
+      <img src={'/artAss/hats/' + this.props.state.hat + '.png'} alt='wizard hat'/> 
+      <img src={'/artAss/robes/' + this.props.state.robe + '.png'} alt='wizard robe'/> 
+      <img src={'/artAss/shoes/' + this.props.state.shoes + '.png'} alt='wizard shoes'/> 
     </div>
     )
   }
