@@ -1,0 +1,5 @@
+.symptoms-container {
+  display: flex;
+  flex-direction: column;
+}
+
