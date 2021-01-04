@@ -16,6 +16,6 @@ main {
   height: 80%;
 }
 
-.main>* {
+.main > * {
   max-width: 30%
 }

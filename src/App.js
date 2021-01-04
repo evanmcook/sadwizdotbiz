@@ -17,7 +17,6 @@ function App() {
           <Symptoms/>
           <Diagnosis/>
         </div>
-        player name?
       </main>
     </div>
   );
