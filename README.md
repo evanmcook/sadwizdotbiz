@@ -1,6 +1,7 @@
 # SADWIZDOTBIZ
 
-This is SadWizDotBiz, the #1 sad wizard simulator on the impernet.
+impulsive online self diagnosis for sad magical beings
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
