@@ -1,14 +1,20 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './wizardscreen.css';
 
-function WizScreen() {
-  return (
-  <div className="screen">
-    <img src='/artAss/hats/hat001.png'/> 
-    <img src='/artAss/robes/robe001.png'/> 
-    <img src='/artAss/shoes/shoes001.png'/> 
-  </div>
-  )
+
+class WizScreen extends Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return (
+    <div className="screen">
+      <img src={'/artAss/hats/' + this.props.state.hat + '.png'}/> 
+      <img src={'/artAss/robes/' + this.props.state.robe + '.png'}/> 
+      <img src={'/artAss/shoes/' + this.props.state.shoes + '.png'}/> 
+    </div>
+    )
+  }
 }
 
 export default WizScreen;
